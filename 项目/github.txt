@@ -1,0 +1,66 @@
+一。
+1，fork 复制克隆项目 ：该fork项目是独立存在的，pull request，发起请求，可以请求复制项目来源合并自己新加的东西
+
+
+2，start 收藏
+
+3，repository 仓库
+
+4，watch 关注：关注项目，当项目更新会有通知
+
+5，issue 事务卡片：发现bug，讨论用
+
+
+二。
+
+总共有三个区：工作区（Working Directory)
+	       暂存区
+	      Git Respository (Git 仓库）
+
+步骤：
+1，git status 查看当前状况（位于哪一个区）
+
+2，git add 文件名.后缀（helloword.py) ：将工作区转换到暂存区
+
+3，get status
+
+4,  git commit -m"提交的描述"
+
+5，git status
+
+
+
+
+Git初始化及仓库的创建和操作
+
+基本信息设置
+1，设置用户名
+git config --global user.name 'gxnucgb'
+2，设置用户名邮箱
+git config --global user.email 'gxnucgb@qq.com'
+
+步骤：
+	1，在文件夹右键用Git Bash Here打开
+	2，将设置用户名、邮箱命令输入
+	注：该设置在GitHub仓库主页显示谁提交了该文件
+
+
+
+新建一个文件夹（mkdir 名字），在文件夹内点进去(cd 名字），用gir bash here打开，输入git init后会出现一个.git文件《这个文件是用来存贮仓库所有信息的》（设置隐藏文件可见）
+
+
+向仓库中添加文件
+	1，在打开的git 中输入  touch 文件名.后缀（touch test.py）或用右键直接创建
+	2，在git中输入 git status <文件名红色>
+	3，输入 git add 文件名（git add test.py）<文件名蓝色>	将文件添加到暂存区
+	4，git status
+	5，git commit -m 'add 文件名'   （git commit -m 'add test.py'）   将文件由暂存区提交到仓库
+
+
+修改仓库文件
+
+
+
+
+
+
